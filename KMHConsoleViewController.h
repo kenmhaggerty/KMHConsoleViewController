@@ -18,7 +18,7 @@
 
 extern NSString * const KMHConsoleViewControllerDidLoadNotification;
 
-#pragma mark Imports
+#pragma mark Forward References
 
 @class KMHConsoleViewController;
 
