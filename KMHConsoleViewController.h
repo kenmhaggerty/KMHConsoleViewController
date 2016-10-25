@@ -25,7 +25,7 @@ extern NSString * const KMHConsoleViewControllerDidLoadNotification;
 #pragma mark Protocols
 
 @protocol KMHConsoleViewDelegate <NSObject>
-- (void)consoleViewController:(KMHConsoleViewController *)viewController didEnterText:(NSString *)text;
+- (void)consoleViewController:(KMHConsoleViewController *)sender didEnterText:(NSString *)text;
 @end
 
 #pragma mark Methods
